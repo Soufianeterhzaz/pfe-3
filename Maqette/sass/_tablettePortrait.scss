@@ -1,0 +1,88 @@
+@media screen and (min-width: 480px) and (max-width: 779px){
+	body{
+		font-size: 1.25em;
+		header{
+			#logo{
+				width: 200px;
+				margin: 0 auto;
+				padding: 1em 0;
+			}
+		}
+		nav{
+			background-color: $menu;
+			ul{
+				width: 90%;
+				padding: 0;
+				margin: 0 auto;
+				li{
+					font-size: 0.85em;
+					padding: 0.25em 0;
+					list-style-type: none;
+					background: none;
+					background-color: $menu;
+					border-bottom: 1px solid black;
+					a{
+						display: block;
+						text-transform: uppercase;
+						padding: 0.2em 0;
+						text-decoration: none;
+						color: black;
+					}
+				}
+				li:last-child{
+					border-bottom: none;
+				}
+			}
+		}
+		#content{
+			width: 90%;
+			margin: 2em auto;
+			.galerie{
+				h3{
+					padding: 1.5em 0 0.5em 1em;
+				}
+				div{
+					display: inline;
+					margin: 0 auto;
+					img{
+						margin: 0 0 0.6em 1em;
+					}
+				}
+			}
+			.focus{
+				font-style: italic;
+				font-size: 0.85em;
+				color: $focus;
+			}
+			form{
+				width: 100%;
+				fieldset{
+					div{
+						padding: 0.25em 0;
+						text-align: left;
+						label{
+							font-size: 0.8em;
+						}
+						input{
+							width: 96%;
+							border: 0.15em solid $contact;
+						}
+					}
+					.textarea{
+						text-align: left;
+						padding-top: 1em;
+					}
+					.submit input{
+						width: 4.4em;
+						text-align: right;
+					}
+					textarea{
+						width: 96%;
+						height: 8em;
+						border: 0.15em solid $contact;
+					}
+				}
+			}
+		}
+	}
+}
